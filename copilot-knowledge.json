@@ -1,0 +1,352 @@
+[
+  {
+    "id": "copilot-01",
+    "category": "AccrediAI Basics",
+    "question": "What is AccrediAI?",
+    "answer": "AccrediAI is an accreditation readiness platform for collecting, organizing, reviewing, and analyzing evidence for institutional accreditation.",
+    "keywords": ["platform", "overview", "purpose", "accreditation"]
+  },
+  {
+    "id": "copilot-02",
+    "category": "AccrediAI Basics",
+    "question": "Which accreditation frameworks does AccrediAI support?",
+    "answer": "The report builder offers NAAC and NBA framework options.",
+    "keywords": ["framework", "NAAC", "NBA", "standard"]
+  },
+  {
+    "id": "copilot-03",
+    "category": "AccrediAI Basics",
+    "question": "What problem does AccrediAI help with?",
+    "answer": "It provides one place to organize accreditation evidence and review readiness, reducing reliance on scattered spreadsheets, folders, and email collection.",
+    "keywords": ["problem", "spreadsheets", "folders", "emails", "centralized"]
+  },
+  {
+    "id": "copilot-04",
+    "category": "AccrediAI Basics",
+    "question": "What do Collect, Verify, Predict, and Prepare mean?",
+    "answer": "Collect evidence, review its completeness, identify readiness gaps, and prepare reports and follow-up actions.",
+    "keywords": ["collect", "verify", "predict", "prepare", "tagline"]
+  },
+  {
+    "id": "copilot-05",
+    "category": "AccrediAI Basics",
+    "question": "Who can use the website?",
+    "answer": "The prototype provides separate Administrator, Head of Department, and Faculty roles.",
+    "keywords": ["roles", "admin", "administrator", "HOD", "faculty", "users"]
+  },
+  {
+    "id": "copilot-06",
+    "category": "AccrediAI Basics",
+    "question": "Where is evidence kept?",
+    "answer": "When the app runs through its local server, evidence records are stored in the project data.json file. Uploaded images are encoded as Base64 text within the record.",
+    "keywords": ["storage", "data.json", "json", "database", "centralized"]
+  },
+  {
+    "id": "copilot-07",
+    "category": "AccrediAI Basics",
+    "question": "What is the current readiness score?",
+    "answer": "The current overall readiness score is {readiness}%.",
+    "keywords": ["readiness", "score", "overall", "current"]
+  },
+  {
+    "id": "copilot-08",
+    "category": "AccrediAI Basics",
+    "question": "Does AccrediAI replace the accreditation team?",
+    "answer": "No. It helps staff organize evidence and act on gaps; institutional users still provide, review, and approve the records.",
+    "keywords": ["replace", "team", "staff", "human", "responsibility"]
+  },
+  {
+    "id": "copilot-09",
+    "category": "Evidence Records",
+    "question": "How do I add an evidence record?",
+    "answer": "Open Evidence, choose Add Evidence, enter the title, department, criterion, academic year, semester, and description, attach an image, then save.",
+    "keywords": ["add", "upload", "submit", "new", "evidence"]
+  },
+  {
+    "id": "copilot-10",
+    "category": "Evidence Records",
+    "question": "Which details can an evidence record contain?",
+    "answer": "A record can include its title, department, accreditation criterion, academic year, semester, description, submitter, status, and image attachment.",
+    "keywords": ["fields", "details", "title", "department", "criterion", "year", "semester", "description"]
+  },
+  {
+    "id": "copilot-11",
+    "category": "Evidence Records",
+    "question": "Which image formats can I upload?",
+    "answer": "The evidence form accepts PNG, JPEG, WebP, and GIF images.",
+    "keywords": ["image", "format", "PNG", "JPEG", "WebP", "GIF", "file type"]
+  },
+  {
+    "id": "copilot-12",
+    "category": "Evidence Records",
+    "question": "How are uploaded images stored?",
+    "answer": "The browser reads the image bytes and encodes them as Base64 text in the evidence record stored in data.json.",
+    "keywords": ["image", "bytes", "Base64", "bytecode", "encoded", "JSON"]
+  },
+  {
+    "id": "copilot-13",
+    "category": "Evidence Records",
+    "question": "How can I view an evidence image?",
+    "answer": "Open the Evidence Repository and select View on a record. Its detail page displays the saved image preview.",
+    "keywords": ["view", "open", "preview", "image", "evidence page"]
+  },
+  {
+    "id": "copilot-14",
+    "category": "Evidence Records",
+    "question": "Why is a new evidence record marked Pending?",
+    "answer": "New manual evidence enters the review workflow with Pending status until a reviewer makes a decision.",
+    "keywords": ["pending", "new", "status", "review", "submitted"]
+  },
+  {
+    "id": "copilot-15",
+    "category": "Evidence Records",
+    "question": "Which evidence records can I see?",
+    "answer": "Administrators can see institution records. Heads of Department see records for their department, and Faculty see records they submitted.",
+    "keywords": ["visibility", "permission", "see", "access", "department", "faculty"]
+  },
+  {
+    "id": "copilot-16",
+    "category": "Evidence Records",
+    "question": "What is the maximum image upload size?",
+    "answer": "The evidence form accepts images up to 1.5 MB.",
+    "keywords": ["size", "limit", "maximum", "upload", "image"]
+  },
+  {
+    "id": "copilot-17",
+    "category": "Evidence Records",
+    "question": "Can I add evidence without an image?",
+    "answer": "The current evidence form requires an image attachment before a new record can be saved.",
+    "keywords": ["without", "image", "required", "attachment", "optional"]
+  },
+  {
+    "id": "copilot-18",
+    "category": "Evidence Records",
+    "question": "Can I edit or delete an evidence record?",
+    "answer": "The current prototype supports adding and reviewing records; it does not provide an edit or delete action in the Evidence Repository.",
+    "keywords": ["edit", "delete", "remove", "change", "modify"]
+  },
+  {
+    "id": "copilot-19",
+    "category": "Readiness & Criteria",
+    "question": "What is our current readiness?",
+    "answer": "The current overall readiness score is {readiness}%. The score shown here comes from the readiness data currently loaded in the app.",
+    "keywords": ["readiness", "score", "current", "overall"]
+  },
+  {
+    "id": "copilot-20",
+    "category": "Readiness & Criteria",
+    "question": "Which criterion is weakest?",
+    "answer": "The lowest current criterion score is {weakestCriterion}.",
+    "keywords": ["weakest", "lowest", "risk", "criterion"]
+  },
+  {
+    "id": "copilot-21",
+    "category": "Readiness & Criteria",
+    "question": "Which criterion is strongest?",
+    "answer": "The highest current criterion score is {strongestCriterion}.",
+    "keywords": ["strongest", "highest", "best", "criterion"]
+  },
+  {
+    "id": "copilot-22",
+    "category": "Readiness & Criteria",
+    "question": "What does the criteria heatmap show?",
+    "answer": "It gives a visual summary of readiness by criterion so staff can spot stronger areas and criteria needing attention.",
+    "keywords": ["heatmap", "visual", "criteria", "readiness", "color"]
+  },
+  {
+    "id": "copilot-23",
+    "category": "Readiness & Criteria",
+    "question": "How many evidence gaps are currently recorded?",
+    "answer": "The app currently reports {gaps} evidence gaps.",
+    "keywords": ["gaps", "missing", "count", "evidence"]
+  },
+  {
+    "id": "copilot-24",
+    "category": "Readiness & Criteria",
+    "question": "Which criteria have low readiness?",
+    "answer": "Current criterion readiness scores are: {criteriaSummary}.",
+    "keywords": ["low", "criteria", "readiness", "scores", "weak"]
+  },
+  {
+    "id": "copilot-25",
+    "category": "Readiness & Criteria",
+    "question": "What does predictive analytics do?",
+    "answer": "The analytics view summarizes current readiness and highlights criteria the prototype identifies as potential risks. Treat its projections as planning guidance, then verify them against institutional records.",
+    "keywords": ["predict", "forecast", "analytics", "projection", "risk"]
+  },
+  {
+    "id": "copilot-26",
+    "category": "Readiness & Criteria",
+    "question": "How many visible records are verified or approved?",
+    "answer": "There are {verifiedCount} verified or approved records among the evidence visible to your account.",
+    "keywords": ["verified", "approved", "count", "records", "evidence"]
+  },
+  {
+    "id": "copilot-27",
+    "category": "Approvals & Roles",
+    "question": "How do I review pending evidence?",
+    "answer": "Open Approval Center, select a pending item, review its details, and choose Approve, Request Changes, or Reject.",
+    "keywords": ["review", "pending", "approval", "queue", "decide"]
+  },
+  {
+    "id": "copilot-28",
+    "category": "Approvals & Roles",
+    "question": "What happens when evidence is approved?",
+    "answer": "The evidence status changes to Approved, the queue record is updated, and the action is recorded in the evidence timeline.",
+    "keywords": ["approve", "approved", "workflow", "status", "timeline"]
+  },
+  {
+    "id": "copilot-29",
+    "category": "Approvals & Roles",
+    "question": "What does Request Changes do?",
+    "answer": "It changes the evidence status to Changes Requested so the submitter can follow up on the record.",
+    "keywords": ["request changes", "changes requested", "review", "status"]
+  },
+  {
+    "id": "copilot-30",
+    "category": "Approvals & Roles",
+    "question": "What can a Head of Department do?",
+    "answer": "A Head of Department can view department evidence and use the approval, analytics, and report areas available to that role.",
+    "keywords": ["HOD", "head", "department", "permissions", "role"]
+  },
+  {
+    "id": "copilot-31",
+    "category": "Approvals & Roles",
+    "question": "What can Faculty do?",
+    "answer": "Faculty can add evidence for their department and view evidence records they submitted.",
+    "keywords": ["faculty", "submit", "add", "department", "permission"]
+  },
+  {
+    "id": "copilot-32",
+    "category": "Approvals & Roles",
+    "question": "What can an Administrator do?",
+    "answer": "The Administrator role has institution-wide evidence visibility, evidence review access, and access to reports and analytics.",
+    "keywords": ["admin", "administrator", "all departments", "permission", "role"]
+  },
+  {
+    "id": "copilot-33",
+    "category": "Approvals & Roles",
+    "question": "Who can approve evidence?",
+    "answer": "The prototype allows Administrators and Heads of Department to use the Approval Center. Faculty accounts do not have access to it.",
+    "keywords": ["who", "approve", "review", "admin", "HOD", "faculty"]
+  },
+  {
+    "id": "copilot-34",
+    "category": "Approvals & Roles",
+    "question": "How many visible items are waiting for review?",
+    "answer": "There are {pendingCount} pending or changes-requested evidence records visible to your account.",
+    "keywords": ["pending", "waiting", "review", "count", "queue"]
+  },
+  {
+    "id": "copilot-35",
+    "category": "Reports & Timeline",
+    "question": "How do I generate a report?",
+    "answer": "Open Accreditation Reports, select Generate Report, choose the framework, year, scope, and report type, then generate it. The report summarizes evidence in that scope.",
+    "keywords": ["generate", "report", "create", "NAAC", "NBA"]
+  },
+  {
+    "id": "copilot-36",
+    "category": "Reports & Timeline",
+    "question": "What information is included in a generated report?",
+    "answer": "A generated report includes a summary of evidence counts and statuses, criterion scores, matching evidence records, image attachment names, and follow-up recommendations.",
+    "keywords": ["report", "contents", "summary", "evidence", "recommendations"]
+  },
+  {
+    "id": "copilot-37",
+    "category": "Reports & Timeline",
+    "question": "Can I create a department report?",
+    "answer": "Yes. Choose Department as the report scope. Administrators can select a department; a Head of Department is limited to their own department data.",
+    "keywords": ["department", "scope", "report", "filter"]
+  },
+  {
+    "id": "copilot-38",
+    "category": "Reports & Timeline",
+    "question": "Can I create a report for one criterion?",
+    "answer": "Yes. Choose Specific Criteria and select the criterion to include in the report.",
+    "keywords": ["specific", "criterion", "single", "report", "scope"]
+  },
+  {
+    "id": "copilot-39",
+    "category": "Reports & Timeline",
+    "question": "Where can I find generated reports?",
+    "answer": "Generated reports appear in the Accreditation Reports page and are saved with the project data.",
+    "keywords": ["find", "saved", "generated", "reports", "list"]
+  },
+  {
+    "id": "copilot-40",
+    "category": "Reports & Timeline",
+    "question": "What is the Academic Evidence Timeline?",
+    "answer": "It lists evidence submission and review activity with dates, departments, criteria, submitters, and current statuses.",
+    "keywords": ["timeline", "activity", "academic", "history", "events"]
+  },
+  {
+    "id": "copilot-41",
+    "category": "Reports & Timeline",
+    "question": "When does a submission appear in the timeline?",
+    "answer": "A new evidence record appears in the timeline after it is saved. A later review decision appears as a separate timeline event.",
+    "keywords": ["submission", "appear", "timeline", "date", "event"]
+  },
+  {
+    "id": "copilot-42",
+    "category": "Reports & Timeline",
+    "question": "Does the timeline show review decisions?",
+    "answer": "Yes. Saved approval, rejection, or changes-requested decisions appear as review updates for that evidence record.",
+    "keywords": ["review", "decision", "timeline", "approval", "rejection"]
+  },
+  {
+    "id": "copilot-43",
+    "category": "Search & Copilot",
+    "question": "What can Smart Search find?",
+    "answer": "Smart Search matches evidence titles, descriptions, departments, criteria, statuses, submitters, academic years, semesters, and attachment names.",
+    "keywords": ["smart search", "find", "search fields", "keywords"]
+  },
+  {
+    "id": "copilot-44",
+    "category": "Search & Copilot",
+    "question": "Can I search by department or status?",
+    "answer": "Yes. Use a department name such as CSE or a status such as Pending, Approved, or Verified.",
+    "keywords": ["search", "department", "status", "CSE", "pending", "approved"]
+  },
+  {
+    "id": "copilot-45",
+    "category": "Search & Copilot",
+    "question": "How do I use a predefined Copilot question?",
+    "answer": "Ask your question in the Copilot input. It matches your wording to its saved answers and uses current app values where the answer includes live metrics.",
+    "keywords": ["predefined", "question", "suggestion", "select", "saved answer"]
+  },
+  {
+    "id": "copilot-46",
+    "category": "Search & Copilot",
+    "question": "What if my Copilot question does not match a predefined answer?",
+    "answer": "If it cannot find a close match, the Copilot says so and suggests asking about evidence, criteria, readiness, approvals, reports, or the timeline.",
+    "keywords": ["no match", "not found", "unknown", "custom question", "fallback"]
+  },
+  {
+    "id": "copilot-47",
+    "category": "Search & Copilot",
+    "question": "Can Smart Search find a criterion?",
+    "answer": "Yes. Search using a label such as Criterion 3 or C4 to filter records mapped to that criterion.",
+    "keywords": ["search", "criterion", "C3", "C4", "mapping"]
+  },
+  {
+    "id": "copilot-48",
+    "category": "Search & Copilot",
+    "question": "Can Smart Search find an academic year?",
+    "answer": "Yes. Enter a year such as 2025 or 2025–26. Search checks the evidence year and recorded date fields.",
+    "keywords": ["search", "year", "academic", "2025", "2025–26"]
+  },
+  {
+    "id": "copilot-49",
+    "category": "Search & Copilot",
+    "question": "Does Copilot use evidence visible to my role?",
+    "answer": "Yes. Live evidence counts and recent-record summaries use the same role-based visibility as the Evidence Repository.",
+    "keywords": ["visible", "role", "permissions", "evidence", "privacy"]
+  },
+  {
+    "id": "copilot-50",
+    "category": "Search & Copilot",
+    "question": "What should I do after finding a gap?",
+    "answer": "Review the criterion and its evidence records, add the missing evidence, then submit it for review. Use the reports and timeline pages to follow the resulting work.",
+    "keywords": ["next steps", "gap", "action", "recommendation", "missing"]
+  }
+]

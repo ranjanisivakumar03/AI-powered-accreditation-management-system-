@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": null,
+  "criteria": [
+    { "id": "C1", "n": "Curricular Aspects", "p": 92, "e": 28, "t": 30, "m": 0, "pe": 2 },
+    { "id": "C2", "n": "Teaching-Learning & Evaluation", "p": 87, "e": 40, "t": 46, "m": 3, "pe": 3 },
+    { "id": "C3", "n": "Faculty & Staff Development", "p": 68, "e": 34, "t": 50, "m": 6, "pe": 10 },
+    { "id": "C4", "n": "Research & Innovation", "p": 42, "e": 18, "t": 43, "m": 5, "pe": 3 },
+    { "id": "C5", "n": "Infrastructure & Learning Resources", "p": 81, "e": 30, "t": 37, "m": 2, "pe": 5 },
+    { "id": "C6", "n": "Student Support & Progression", "p": 57, "e": 22, "t": 39, "m": 5, "pe": 7 },
+    { "id": "C7", "n": "Governance & Institutional Values", "p": 76, "e": 26, "t": 34, "m": 2, "pe": 4 }
+  ],
+  "evidence": [
+    { "id": 1, "t": "Faculty Development Programme", "d": "CSE", "c": "C3", "s": "Verified", "u": "Today", "by": "Priya Sharma", "ai": 94, "v": 87, "type": "PDF", "sem": "Semester 1", "mo": "Jun 2025" },
+    { "id": 2, "t": "Research Publication Report", "d": "ECE", "c": "C4", "s": "Pending", "u": "Yesterday", "by": "Karthik Menon", "ai": 89, "v": 81, "type": "DOCX", "sem": "Semester 1", "mo": "Aug 2025" },
+    { "id": 3, "t": "Industry Interaction Report", "d": "Mechanical", "c": "C5", "s": "Approved", "u": "2 days ago", "by": "R. Venkatesh", "ai": 91, "v": 93, "type": "PDF", "sem": "Semester 1", "mo": "Jul 2025" },
+    { "id": 4, "t": "Student Technical Workshop", "d": "CSE", "c": "C2", "s": "Approved", "u": "3 days ago", "by": "Meera Nair", "ai": 92, "v": 90, "type": "PDF", "sem": "Semester 1", "mo": "Sep 2025" },
+    { "id": 5, "t": "Placement Training Summary", "d": "IT", "c": "C6", "s": "Pending", "u": "4 days ago", "by": "S. Arvind", "ai": 86, "v": 78, "type": "XLSX", "sem": "Semester 2", "mo": "Oct 2025" },
+    { "id": 6, "t": "Academic Audit Report", "d": "Civil", "c": "C1", "s": "Approved", "u": "1 week ago", "by": "Dr. L. Fernandes", "ai": 96, "v": 95, "type": "PDF", "sem": "Semester 1", "mo": "Nov 2025" },
+    { "id": 7, "t": "Innovation Cell Activity Log", "d": "CSE", "c": "C4", "s": "Verified", "u": "1 week ago", "by": "Aditi Rao", "ai": 88, "v": 84, "type": "DOCX", "sem": "Semester 2", "mo": "Dec 2025" }
+  ],
+  "queue": [
+    { "id": 1, "t": "Faculty Development Programme", "d": "CSE", "by": "Priya Sharma", "ago": "2 hours ago", "c": "C3", "ai": 94, "v": 87, "miss": ["Attendance sheet", "HOD approval"], "st": "Pending" },
+    { "id": 2, "t": "Research Publication Report", "d": "ECE", "by": "Karthik Menon", "ago": "Yesterday", "c": "C4", "ai": 89, "v": 81, "miss": ["Citation index proof"], "st": "Pending" },
+    { "id": 5, "t": "Placement Training Summary", "d": "IT", "by": "S. Arvind", "ago": "4 days ago", "c": "C6", "ai": 86, "v": 78, "miss": ["Signed attendance"], "st": "Pending" }
+  ],
+  "metrics": { "ready": 78.4, "verified": 324, "gaps": 27, "pend": 18 },
+  "reports": [
+    ["NAAC Readiness Report", "2025–26", "Generated 2 hours ago"],
+    ["Criterion 4 Gap Analysis", "2025–26", "Generated 3 days ago"]
+  ]
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AccrediAI — Accreditation Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="google-fonts.css">
+  <link rel="stylesheet" href="styles.css">
+</head><body>
+<div class="login" id="login"><div class="login-layout">
+<section class="login-brand"><div class="logo"><i><img src="assets/accrediai-mark.svg" alt="" width="18" height="18"></i><div><b>AccrediAI</b><small>Accreditation Intelligence</small></div></div>
+<p class="login-eyebrow">Continuous accreditation readiness</p><h1>Turn accreditation preparation into continuous readiness.</h1><p class="login-tagline">Collect. Verify. Predict. Prepare.</p>
+<div class="login-brand-foot"><span class="badge s-ai">NAAC / NBA</span><span class="badge s-ok">Evidence · Insights · Action</span></div></section>
+<section class="login-card" aria-labelledby="signin-title"><h2 id="signin-title">Sign in to AccrediAI</h2><p class="login-panel-sub">Choose your role and enter your account details.</p>
+<form id="login-form" class="login-form"><label for="login-role">Sign in as</label><select id="login-role" class="chip"><option value="admin">Administrator</option><option value="hod">Head of Department</option><option value="faculty">Faculty</option></select><label for="login-user">Username</label><input id="login-user" class="chip" autocomplete="username" required><label for="login-password">Password</label><input id="login-password" class="chip" type="password" autocomplete="current-password" required><p id="login-error" class="login-error" role="alert"></p><button class="btn p" type="submit" style="justify-content:center;padding:12px 26px;font-size:15px">Sign in</button></form>
+<p class="login-demo">Demo access: <b>admin / Admin@123</b> · <b>hod / Hod@123</b> · <b>faculty / Faculty@123</b></p><p class="login-note">Demo sign-in only. Accounts are stored in this page, not secured by a server.</p></section>
+</div></div><aside id="side"><div class="logo"><i><img src="assets/accrediai-mark.svg" alt="" width="18" height="18"></i><div><b>AccrediAI</b><small>Accreditation Intelligence</small></div></div><nav id="nav"></nav>
+<div class="user"><div class="av" id="user-avatar">AR</div><div><b id="user-name" style="color:#fff;font-weight:600">Dr. Ananya Rao</b><small id="user-role">Administrator</small><small id="user-dept"></small></div></div></aside>
+<div id="main"><header id="top"><button class="ib" id="menu" aria-label="Open menu">☰</button><span class="crumb" id="crumb"></span><span style="flex:1"></span>
+<span class="chip hide">Academic Year: 2025–26</span><span class="chip hide">Framework: NAAC</span>
+<a class="ib" href="#/search" aria-label="Search" title="Search">⌕</a><button class="ib" id="bell" aria-label="Notifications" title="Notifications">🔔<i class="dot"></i></button><div class="av" id="header-avatar">AR</div><button class="ib" id="logout" aria-label="Sign out" title="Sign out">↪</button></header>
+<div id="dd" class="card"></div><main id="view"></main></div>
+<div id="mod"><div class="box" role="dialog" aria-modal="true"></div></div><div id="toast" aria-live="polite"></div>
+<script defer src="svg.js"></script>
+<script defer src="app.js"></script>
+<script defer src="role-features.js"></script></body></html>
